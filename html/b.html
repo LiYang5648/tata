@@ -1,0 +1,40 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>b.html</title>
+	<h1>b.html</h1>
+<script src="02-jquery-1.10.2-custom.js"></script>
+<script>
+$(document).ready(function(){
+	$(".t .button").click(function(){
+		$(this).parents(".t").hide("slow");
+	});
+});
+</script>
+<style>
+.t
+{
+  background-color: #e5eecc;
+  padding: 7px;
+  border:solid 1px #c3c3c3;
+
+}
+</style>
+</head>
+<body>
+
+<div class="t">
+
+<p class="tt">那年夏天我遇到了你</p>
+<div class="show">
+<p>在那个微风拂面的夏天遇到了你</p>
+	<p>那时天上还下着雨</p>
+	<p>我就这么看到你</p>
+    <p>看到你</p>
+</div>
+<button class="button" type="button">button</button>
+</div>
+</body>
+
+
+</html>

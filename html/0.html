@@ -1,0 +1,121 @@
+
+
+#div2
+{
+background:pink;
+transform:rotate(-4.5deg);;
+transform:scale(2e,4e);
+}
+p.test
+{
+width:20em;
+border:3px soild #888888;
+word-wrap:break-word;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function e()
+{
+alert("you are right")
+}
+</script>
+<div id="div2">
+<form>
+<table width="350" bgcolor="pink" style="border-color" border="3">
+<tr align=center>
+<td>
+<button type="button" onclick="e()">
+<font size="5" color="#ff9900">click me</font>
+</button>
+</td>
+
+                                             
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+<td> 
+<a href="http://www.baidu.com">百度</a>
+</td>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+<td> 
+<a href="http://www.baidu.com"><img src="123.bmp" height="25" width="50" border="0px" title="点击图片转到百度"></a>
+</td>
+</tr>
+</table>
+
+</form>
+</div>
+
+</head>
+
+
+<center>
+<p>选择页码数字
+
+<table>
+<input type="number" name="n-depth" value="1">
+</p>
+
+<p>
+请输入标签页
+
+<select>
+<option>标签1</option>
+<option>标签2</option>
+<option>标签3</option>
+<option>标签4</option>
+<option>标签5</option>
+<option>标签6</option>
+</p>
+<input type="radio" name="radio" value="radio" checked >a
+<input type="radio" name="radio" value="radio">b
+<input type="radio" name="radio" value="radio">c
+<input type="radio" name="radio" value="radio">d
+
+<form>
+<tr radius="25px">
+                        <td colspan="2">保存页面时使用
+                            <label>
+                              <select name="saveas" size="1">
+                                <option value="urlFilename">URL文件名</option>
+                                <option value="hrefText">链接名称</option>
+                                <option value="htmlTitle">页面标题</option>
+                              </select>
+                            </label>
+                            作为文件名
+                        </td>
+                    </tr>
+                </table>
+            </form>
+			</center>
+
+<table align="center"><tr><td><textarea cols="60" rows="7" placeholder="过滤输入的信息"></textarea><tr><td>
+
+ <input type="submit" name="submit" class="hide"/>
+
+<p id="demo"><font size="9" color="red">发现一个BUG</font></p>
+<script>
+function b()
+{
+document.getElementById("demo").innerHTML="Welcome";
+}
+</script>
+
+
+
+<input type="button" name="button" value="点我改变" onclick="b()">
+
+<input type="button" value="点我隐藏" onclick="document.getElementById('demo').style.visibility='hidden'"/>
+<input type="button" value="点我显示" onclick="document.getElementById('demo').style.visibility='visible'"/>
